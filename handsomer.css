@@ -1,0 +1,45 @@
+html{
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+}
+a{
+    color: #0099ff;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:focus{
+    color: #0055ff;
+}
+a.normal{
+    color: inherit;
+    text-decoration: underline;
+}
+a.normal:hover{
+    text-decoration: none;
+}
+a.normal:visited{
+    color: #9900ff;
+}
+img{
+    display: block;
+    max-inline-size: 100%;
+    block-size: auto;
+}
+img.super{
+    width: 100%;
+    height: auto;
+}
+img.ratio{
+    /* Property is experimental. Be cautious when using it.️ */
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+ol,
+ul{
+    list-style: none;
+}
+/* ... */
